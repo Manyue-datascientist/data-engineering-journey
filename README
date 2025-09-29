@@ -59,17 +59,18 @@ Each week folder follows the same pattern:
 
 ## 📊 Data Engineering Journey Map
 
-```mermaid
-flowchart TD
-    A[Raw Data Sources] --> B[Ingestion & Landing Zone]
-    B --> C[Distributed Storage<br/>(HDFS / S3 / ADLS)]
-    C --> D[Distributed Processing<br/>(MapReduce / Spark)]
-    D --> E[Serving Layer<br/>(DB / DWH / NoSQL)]
-    E --> F[BI / ML / Applications]
-    style A fill:#e3f2fd,stroke:#2196f3,stroke-width:2px
-    style C fill:#fffde7,stroke:#fbc02d,stroke-width:2px
-    style D fill:#e8f5e9,stroke:#43a047,stroke-width:2px
-    style F fill:#fce4ec,stroke:#d81b60,stroke-width:2px
+```
+Raw Data Sources
+      ↓
+Ingestion & Landing Zone
+      ↓
+Distributed Storage (HDFS / S3 / ADLS)
+      ↓
+Distributed Processing (MapReduce / Spark)
+      ↓
+Serving Layer (DB / DWH / NoSQL)
+      ↓
+BI / ML / Applications
 ```
 
 ---
